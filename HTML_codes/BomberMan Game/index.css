@@ -1,0 +1,62 @@
+
+.game_Container {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    width: 405px;
+    margin: 0px auto;
+  }
+
+
+.cell{
+    font-family: 'Times New Roman', Times, serif;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #810000;
+    cursor: pointer;
+    font-stretch: expanded;
+    text-align: center;
+    font-size: 20px;
+    background-color: #9e9d89;
+    border-radius: 10%;
+    
+    /* background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png"); */
+}
+.game_Title {
+  margin: 20px auto;
+  max-width: 5em;
+  color: #763857;
+  font-size: 40px;
+}
+
+.footer{
+  /* margin: 50px;
+  position: absolute;
+  left : 50%;
+  top: 80%;
+  transform: translate(50%, 50%); */
+  margin: 20px auto;
+  width: 13em;
+}
+
+h2{
+  /* margin: auto;
+  width: 500px; */
+  position: absolute;
+  left : 50%;
+  transform: translate(-50%);
+}
+button{
+  background-color: #47cf73;
+  height: 50px;
+  width: 90px;
+  border-radius: 10%;
+  border-color: transparent;
+  color: black;
+  font-size: 25px;
+}
+
+span{
+  font-size: 25px;
+  margin-left: 5%;
+}
